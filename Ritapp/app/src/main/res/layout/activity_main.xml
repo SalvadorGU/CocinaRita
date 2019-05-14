@@ -159,6 +159,10 @@
                 android:text="@string/registrarse"
                 android:textAlignment="center"
                 android:textColor="@android:color/holo_blue_dark"
+<<<<<<< HEAD
+=======
+
+>>>>>>> eduardoLizarraga
 
                 />
 

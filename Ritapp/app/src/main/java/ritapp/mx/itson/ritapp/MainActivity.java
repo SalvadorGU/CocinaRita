@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         findViewById(R.id.btnregistrar).setOnClickListener(this);
 
 =======
@@ -26,6 +27,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(final View v){
 
 
+=======
+>>>>>>> eduardoLizarraga
 
     }
 
