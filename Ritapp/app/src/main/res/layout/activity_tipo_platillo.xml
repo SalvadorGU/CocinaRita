@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+
+
+    >
+
+
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1"
+        >
+
+        <LinearLayout
+            android:layout_width="40dp"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:background="#9B724C">
+
+
+            <ImageView
+                android:layout_width="112dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/rita"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:padding="20dp"
+            android:orientation="vertical"
+            android:background="#533E2A"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingVertical="5dp"
+                android:orientation="horizontal"
+                android:paddingHorizontal="20dp">
+
+                <Button
+
+                    android:id="@+id/btnDesayuno"
+                    android:layout_width="wrap_content"
+                    android:layout_height="115dp"
+                    android:layout_weight="1"
+                    android:background="#EA8A31"
+                    android:text="@string/desayuno"
+                    android:textAlignment="center"
+                    android:textColor="#FFFF"
+                    android:textSize="20dp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingVertical="5dp"
+                android:paddingHorizontal="20dp"
+                android:orientation="horizontal"
+
+                >
+                <Button
+
+                    android:id="@+id/btnAntojito"
+                    android:textSize="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="115dp"
+                    android:textAlignment="center"
+                    android:textColor="#FFFF"
+                    android:textStyle="italic"
+                    android:layout_weight="1"
+                    android:background="#EA8A31"
+                    android:text="@string/antojito"
+                    />
+                </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingVertical="5dp"
+                android:paddingHorizontal="20dp"
+                android:orientation="horizontal"
+
+                >
+                <Button
+
+                    android:id="@+id/btnBebida"
+                    android:textSize="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="115dp"
+                    android:textAlignment="center"
+                    android:textColor="#FFFF"
+                    android:textStyle="italic"
+                    android:layout_weight="1"
+                    android:background="#EA8A31"
+                    android:text="@string/bebida"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingVertical="5dp"
+                android:paddingHorizontal="20dp"
+                android:orientation="horizontal"
+
+                >
+                <Button
+
+                    android:id="@+id/btnPostre"
+                    android:textSize="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="115dp"
+                    android:textAlignment="center"
+                    android:textColor="#FFFF"
+                    android:textStyle="italic"
+                    android:layout_weight="1"
+                    android:background="#EA8A31"
+                    android:text="@string/postre"
+                    />
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+
+
+    </TableLayout>
+</ScrollView>

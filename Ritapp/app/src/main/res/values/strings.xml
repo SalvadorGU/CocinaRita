@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">rita</string>
+
+    <string name="registrarse">Registrate!</string>
+
+    <string name="correo">Correo electrónico :</string>
+
+    <string name="contrasena">Contraseña :</string>
+
+    <string name="confirmContrasena">Confirmar Contraseña :</string>
+
+    <string name="nombre_usuario">Nombre :</string>
+
+    <string name="apellido">Apellido :</string>
+
+    <string name="cel_usuario">Teléfono Celular :</string>
+
+    <string name="inicio_sesion">Iniciar Sesión :</string>
+
+    <string name="ordenar">Ordenar</string>
+
+    <string name="desayuno">Desayunos</string>
+
+    <string name="antojito">Antojitos Mexicanos</string>
+
+    <string name="bebida">Bebidas </string>
+
+    <string name="postre">Postres</string>
+</resources>

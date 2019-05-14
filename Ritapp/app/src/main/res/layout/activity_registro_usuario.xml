@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+
+
+    >
+
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1"
+        >
+
+
+
+        <LinearLayout
+            android:layout_width="40dp"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:background="#9B724C">
+
+
+            <ImageView
+                android:layout_width="112dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/rita"
+
+                />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="@string/registrarse"
+                android:textSize="40dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="30dp"/>
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:orientation="vertical"
+            android:background="#533E2A"
+
+            >
+
+
+        <TextView
+
+            android:text= "@string/nombre_usuario"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"/>
+
+        <EditText
+            android:id="@+id/txtNombre_usuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            
+            />
+
+        <TextView
+
+            android:text= "@string/apellido"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"/>
+
+        <EditText
+            android:id="@+id/txtApellido_usuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+
+            android:text= "@string/cel_usuario"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"/>
+
+        <EditText
+            android:id="@+id/txtNumcel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:inputType="number"
+            android:textStyle="bold" />
+
+        <TextView
+
+            android:text= "@string/correo"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"/>
+
+        <EditText
+            android:id="@+id/txtCorreo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+
+            android:text= "@string/contrasena"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"/>
+
+        <EditText
+            android:id="@+id/txtContrasena"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:inputType="textPassword"
+            android:textStyle="bold" />
+
+        <TextView
+
+            android:text= "@string/confirmContrasena"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:textStyle="bold"
+
+            android:layout_marginTop="30dp"/>
+
+        <EditText
+            android:id="@+id/txtConfirmContrasena"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:inputType="textPassword"
+            android:textStyle="bold" />
+
+        <Button
+
+            android:id="@+id/btnRegistro"
+            android:layout_width="300dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:text="@string/registrarse"
+            android:textSize="20dp"
+            android:background="#EA8A31"
+            />
+
+
+</LinearLayout>
+
+    </TableLayout>
+</ScrollView>
