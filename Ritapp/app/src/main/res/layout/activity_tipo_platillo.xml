@@ -84,7 +84,7 @@
                     android:background="#EA8A31"
                     android:text="@string/antojito"
                     />
-                </LinearLayout>
+            </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
