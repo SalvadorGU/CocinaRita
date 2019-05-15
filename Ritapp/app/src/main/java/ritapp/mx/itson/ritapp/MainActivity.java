@@ -1,5 +1,6 @@
 package ritapp.mx.itson.ritapp;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -13,22 +14,31 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        (findViewById(R.id.btnregistrar)).setOnClickListener(this);
+        (findViewById(R.id.btnInicioSesion)).setOnClickListener(this);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-        findViewById(R.id.btnregistrar).setOnClickListener(this);
-
-=======
-        //ghghh
->>>>>>> eduardoLizarraga
     }
 
 
     public void onClick(final View v){
 
 
-=======
->>>>>>> eduardoLizarraga
+        switch (v.getId()){
+
+            case R.id.btnRegistrar:
+
+                Intent intentRegistro = new Intent(this, registroUsuarioActivity.class);
+                startActivity(intentRegistro);
+                break;
+            case R.id.btnInicioSesion:
+                Intent intentInicio = new Intent(this, menuPrincipalActivity.class);
+                startActivity(intentInicio);
+                break;
+
+
+
+        }
+
 
     }
 
