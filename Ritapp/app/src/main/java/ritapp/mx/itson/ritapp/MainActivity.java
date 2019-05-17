@@ -3,10 +3,24 @@ package ritapp.mx.itson.ritapp;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.WindowManager;
+import android.widget.Toast;
+
+import com.google.gson.Gson;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.Arrays;
+
+import mx.itson.ritapp.Entidades.Usuario;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,6 +57,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
 
-}
+
+    }
+
+
+
 
 
